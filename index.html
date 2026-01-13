@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sztuka Ludowa – oficjalna strona</title>
+
+  <!-- Ikony (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #f5f5f5, #eaeaea);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 14px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 380px;
+      width: 100%;
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 28px;
+      color: #222;
+    }
+
+    p {
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #fff;
+      padding: 14px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .facebook {
+      background: #1877f2;
+    }
+
+    .instagram {
+      background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+    }
+
+    .email {
+      background: #555;
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 13px;
+      color: #aaa;
+      word-break: break-word;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Sztuka Ludowa</h1>
+    <p>Znajdziesz nas w mediach społecznościowych lub skontaktujesz się mailowo</p>
+
+    <a class="link facebook" href="https://www.facebook.com/sztukaludowa" target="_blank" rel="noopener">
+      <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+
+    <a class="link instagram" href="https://www.instagram.com/sztukaludowa.pl/" target="_blank" rel="noopener">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+
+    <a class="link email" href="mailto:sztukaludowapl@gmail.com">
+      <i class="fas fa-envelope"></i> sztukaludowapl@gmail.com
+    </a>
+
+    <footer>
+      © SztukaLudowa.pl
+    </footer>
+  </div>
+
+</body>
+</html>
